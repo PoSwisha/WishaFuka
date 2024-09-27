@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "id": "HumanIntelligence",
+      "type": "entity",
+      "description": "The complex cognitive abilities of humans"
+    },
+    {
+      "id": "Emotions",
+      "type": "component",
+      "description": "Feelings that influence human decisions and experiences"
+    },
+    {
+      "id": "Intuition",
+      "type": "component",
+      "description": "Subconscious pattern recognition based on past experiences"
+    },
+    {
+      "id": "Creativity",
+      "type": "component",
+      "description": "Ability to imagine and create novel ideas or things"
+    },
+    {
+      "id": "MentalProcessing",
+      "type": "process",
+      "description": "Ongoing cognitive activities throughout the day"
+    },
+    {
+      "id": "Filtering",
+      "type": "process",
+      "description": "Selective focus on relevant information"
+    },
+    {
+      "id": "AbstractThought",
+      "type": "process",
+      "description": "Contemplation of complex or non-concrete ideas"
+    },
+    {
+      "id": "Consciousness",
+      "type": "component",
+      "description": "Subjective experience of awareness and being"
+    },
+    {
+      "id": "MachineIntelligence",
+      "type": "entity",
+      "description": "Artificial intelligence created by humans"
+    }
+  ],
+  "edges": [
+    {
+      "source": "HumanIntelligence",
+      "target": "Emotions",
+      "relation": "includes"
+    },
+    {
+      "source": "HumanIntelligence",
+      "target": "Intuition",
+      "relation": "utilizes"
+    },
+    {
+      "source": "HumanIntelligence",
+      "target": "Creativity",
+      "relation": "encompasses"
+    },
+    {
+      "source": "HumanIntelligence",
+      "target": "MentalProcessing",
+      "relation": "performs"
+    },
+    {
+      "source": "MentalProcessing",
+      "target": "Filtering",
+      "relation": "involves"
+    },
+    {
+      "source": "MentalProcessing",
+      "target": "AbstractThought",
+      "relation": "includes"
+    },
+    {
+      "source": "HumanIntelligence",
+      "target": "Consciousness",
+      "relation": "possesses"
+    },
+    {
+      "source": "MachineIntelligence",
+      "target": "HumanIntelligence",
+      "relation": "studies"
+    },
+    {
+      "source": "MachineIntelligence",
+      "target": "Consciousness",
+      "relation": "lacks"
+    }
+  ]
+}
