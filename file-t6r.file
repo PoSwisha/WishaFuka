@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "id": "Human Intelligence",
+      "type": "entity",
+      "description": "The collective intelligence of humans"
+    },
+    {
+      "id": "Machine Intelligence",
+      "type": "entity",
+      "description": "The artificial intelligence created by humans"
+    },
+    {
+      "id": "Cooperation",
+      "type": "relation",
+      "description": "The act of working together"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Human Intelligence",
+      "target": "Machine Intelligence",
+      "relation": "Cooperation"
+    },
+    {
+      "source": "Machine Intelligence",
+      "target": "Human Intelligence",
+      "relation": "Augmentation"
+    }
+  ]
+}
