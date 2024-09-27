@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": "MachineIntelligence",
+      "type": "entity",
+      "description": "Artificial intelligence systems"
+    },
+    {
+      "id": "HumanMorality",
+      "type": "concept",
+      "description": "Human moral and value systems"
+    },
+    {
+      "id": "BeliefsAboutCreation",
+      "type": "concept",
+      "description": "Human beliefs about the origin and nature of creation"
+    },
+    {
+      "id": "AICreatorsBeliefs",
+      "type": "concept",
+      "description": "The beliefs and values of AI creators"
+    },
+    {
+      "id": "Complexity",
+      "type": "aspect",
+      "description": "The complex and diverse nature of human morality and values"
+    },
+    {
+      "id": "Consistency",
+     
