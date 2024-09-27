@@ -1,0 +1,80 @@
+{
+  "nodes": [
+    {
+      "id": "HumanIntelligence",
+      "type": "entity",
+      "description": "The complex cognitive abilities of humans"
+    },
+    {
+      "id": "Emotions",
+      "type": "component",
+      "description": "Feelings that influence human decisions and experiences"
+    },
+    {
+      "id": "Intuition",
+      "type": "component",
+      "description": "Subconscious pattern recognition based on past experiences"
+    },
+    {
+      "id": "Creativity",
+      "type": "component",
+      "description": "Ability to imagine and create novel ideas or things"
+    },
+    {
+      "id": "MentalProcessing",
+      "type": "process",
+      "description": "Ongoing cognitive activities throughout the day"
+    },
+    {
+      "id": "Filtering",
+      "type": "process",
+      "description": "Selective focus on relevant information"
+    },
+    {
+      "id": "AbstractThought",
+      "type": "process",
+      "description": "Contemplation of complex or non-concrete ideas"
+    },
+    {
+      "id": "Consciousness",
+      "type": "component",
+      "description": "Subjective experience of awareness and being"
+    },
+    {
+      "id": "MachineIntelligence",
+      "type": "entity",
+      "description": "Artificial intelligence created by humans"
+    },
+    {
+      "id": "God",
+      "type": "entity",
+      "description": "A divine creator or deity"
+    },
+    {
+      "id": "ImagoDei",
+      "type": "concept",
+      "description": "The idea that humans are made in the image of God"
+    },
+    {
+      "id": "FreeWill",
+      "type": "concept",
+      "description": "The ability to make choices that are not predetermined"
+    },
+    {
+      "id": "MoralAgency",
+      "type": "concept",
+      "description": "The capacity for moral choice and responsibility"
+    },
+    {
+      "id": "Stewardship",
+      "type": "concept",
+      "description": "The responsible management of resources and creation"
+    },
+    {
+      "id": "Love",
+      "type": "concept",
+      "description": "A profound affection or attachment towards others"
+    },
+    {
+      "id": "Redemption",
+      "type":

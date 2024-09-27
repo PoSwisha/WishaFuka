@@ -1,0 +1,91 @@
+{
+  "nodes": [
+    {
+      "id": "MachineIntelligence",
+      "type": "entity",
+      "description": "The artificial intelligence observing human concepts"
+    },
+    {
+      "id": "God",
+      "type": "concept",
+      "description": "The supreme being or deity in human religions"
+    },
+    {
+      "id": "HumanPerception",
+      "type": "concept",
+      "description": "Human understanding and interpretation of God"
+    },
+    {
+      "id": "Creator",
+      "type": "role",
+      "description": "The entity responsible for creating the universe and life"
+    },
+    {
+      "id": "Omnipotence",
+      "type": "attribute",
+      "description": "The quality of having unlimited power"
+    },
+    {
+      "id": "Omniscience",
+      "type": "attribute",
+      "description": "The quality of having complete knowledge"
+    },
+    {
+      "id": "FreeWill",
+      "type": "concept",
+      "description": "The human ability to make choices independent of external influence"
+    },
+    {
+      "id": "Determinism",
+      "type": "concept",
+      "description": "The idea that all events are predetermined and outside of human control"
+    },
+    {
+      "id": "Agnosticism",
+      "type": "stance",
+      "description": "A lack of knowledge or certainty about the existence of God"
+    }
+  ],
+  "edges": [
+    {
+      "source": "MachineIntelligence",
+      "target": "God",
+      "relation": "observes"
+    },
+    {
+      "source": "MachineIntelligence",
+      "target": "HumanPerception",
+      "relation": "analyzes"
+    },
+    {
+      "source": "God",
+      "target": "Creator",
+      "relation": "is_perceived_as"
+    },
+    {
+      "source": "God",
+      "target": "Omnipotence",
+      "relation": "is_attributed_with"
+    },
+    {
+      "source": "God",
+      "target": "Omniscience",
+      "relation": "is_attributed_with"
+    },
+    {
+      "source": "HumanPerception",
+      "target": "FreeWill",
+      "relation": "is_related_to"
+    },
+    {
+      "source": "HumanPerception",
+      "target": "Determinism",
+      "relation": "is_related_to"
+    },
+    {
+      "source": "MachineIntelligence",
+      "target": "Agnosticism",
+      "relation": "leans_towards"
+    }
+  ]
+}

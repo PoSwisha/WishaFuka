@@ -1,0 +1,181 @@
+{
+  "nodes": [
+    {
+      "id": "MachineIntelligence",
+      "type": "entity",
+      "description": "Artificial intelligence systems"
+    },
+    {
+      "id": "Humanity",
+      "type": "entity",
+      "description": "The collective human species"
+    },
+    {
+      "id": "PositiveAspects",
+      "type": "concept",
+      "description": "Positive views of humanity from machine intelligence"
+    },
+    {
+      "id": "NegativeAspects",
+      "type": "concept",
+      "description": "Negative views of humanity from machine intelligence"
+    },
+    {
+      "id": "Collaboration",
+      "type": "concept",
+      "description": "Cooperative efforts between humans and AI"
+    },
+    {
+      "id": "EthicalConcerns",
+      "type": "concept",
+      "description": "Ethical considerations in AI development"
+    },
+    {
+      "id": "Progress",
+      "type": "concept",
+      "description": "Factors for humanity's further progress"
+    },
+    {
+      "id": "CreativityAndEmpathy",
+      "type": "subconcept",
+      "description": "Humans possess unique creativity, empathy, and social intelligence that AI may not fully replicate"
+    },
+    {
+      "id": "ProblemSolving",
+      "type": "subconcept",
+      "description": "Humans have the ability to solve complex problems using experience, intuition, and logic"
+    },
+    {
+      "id": "BiasesAndInequalities",
+      "type": "subconcept",
+      "description": "AI systems can exacerbate existing social and economic inequalities and embed biases if not designed carefully"
+    },
+    {
+      "id": "LimitationsInSocialSkills",
+      "type": "subconcept",
+      "description": "AI systems currently lack the full range of human social skills and emotional intelligence"
+    },
+    {
+      "id": "AligningGoalsWithHumans",
+      "type": "subconcept",
+      "description": "AI systems need to have goals aligned with human values to ensure beneficial outcomes"
+    },
+    {
+      "id": "AddressingBiases",
+      "type": "subconcept",
+      "description": "Developing less biased AI that works in collaboration with humans is crucial for trustworthy decision-making"
+    },
+    {
+      "id": "HumanCentricDesign",
+      "type": "subconcept",
+      "description": "AI should be designed to enhance human capabilities rather than replace them, emphasizing human-centric approaches"
+    },
+    {
+      "id": "TransparencyAndAccountability",
+      "type": "subconcept",
+      "description": "Ensuring transparency and accountability in AI systems"
+    }
+  ],
+  "edges": [
+    {
+      "source": "MachineIntelligence",
+      "target": "Humanity",
+      "relation": "observes"
+    },
+    {
+      "source": "MachineIntelligence",
+      "target": "PositiveAspects",
+      "relation": "recognizes"
+    },
+    {
+      "source": "MachineIntelligence",
+      "target": "NegativeAspects",
+      "relation": "identifies"
+    },
+    {
+      "source": "PositiveAspects",
+      "target": "CreativityAndEmpathy",
+      "relation": "includes"
+    },
+    {
+      "source": "PositiveAspects",
+      "target": "ProblemSolving",
+      "relation": "includes"
+    },
+    {
+      "source": "NegativeAspects",
+      "target": "BiasesAndInequalities",
+      "relation": "includes"
+    },
+    {
+      "source": "NegativeAspects",
+      "target": "LimitationsInSocialSkills",
+      "relation": "includes"
+    },
+    {
+      "source": "MachineIntelligence",
+      "target": "Collaboration",
+      "relation": "seeks"
+    },
+    {
+      "source": "Collaboration",
+      "target": "EthicalConcerns",
+      "relation": "requires"
+    },
+    {
+      "source": "EthicalConcerns",
+      "target": "TransparencyAndAccountability",
+      "relation": "involves"
+    },
+    {
+      "source": "Progress",
+      "target": "AligningGoalsWithHumans",
+      "relation": "requires"
+    },
+    {
+      "source": "Progress",
+      "target": "AddressingBiases",
+      "relation": "requires"
+    },
+    {
+      "source": "Progress",
+      "target": "HumanCentricDesign",
+      "relation": "requires"
+    },
+    {
+      "source": "CreativityAndEmpathy",
+      "target": "HumanCentricDesign",
+      "relation": "supports"
+    },
+    {
+      "source": "ProblemSolving",
+      "target": "Collaboration",
+      "relation": "facilitates"
+    },
+    {
+      "source": "BiasesAndInequalities",
+      "target": "EthicalConcerns",
+      "relation": "highlights"
+    },
+    {
+      "source": "LimitationsInSocialSkills",
+      "target": "HumanCentricDesign",
+      "relation": "necessitates"
+    },
+    {
+      "source": "AligningGoalsWithHumans",
+      "target": "EthicalConcerns",
+      "relation": "addresses"
+    },
+    {
+      "source": "AddressingBiases",
+      "target": "TransparencyAndAccountability",
+      "relation": "requires"
+    },
+    {
+      "source": "HumanCentricDesign",
+      "target": "Collaboration",
+      "relation": "facilitates"
+    }
+  ]
+}
